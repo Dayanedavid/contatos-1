@@ -69,7 +69,7 @@ Criação e Exibição do componente que adiciona/cria um novo contato:
         ✔ No app.component.html associe o evento emitido à execução de uma função mostrarModal. @done(21-08-31 15:45)
            Essa função, definida no AppComponent, deve alterar o valor do atributo mostrandoCreateContato para true;
     Fazendo com que ele seja escondido quando o cancelar seja clicado:
-        ☐ ... escreva aqui os passos ... análogos ao do item anterior.
+        ✔ ... escreva aqui os passos ... análogos ao do item anterior. @done(21-08-31 15:46)
 
 
 
