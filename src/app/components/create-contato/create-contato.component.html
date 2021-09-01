@@ -13,11 +13,11 @@
             <div *ngFor="let tel of novoContato.telefones; let i = index; trackBy:track">
                 <input type="tel" name="telefone_{{i}}" [(ngModel)]="novoContato.telefones[i]">
                 
-                <a *ngIf="i==0" ><i class="material-icons">add_circle</i></a>
-                <a *ngIf="i!==0" class="remove"><i class="material-icons">remove_circle</i></a>
+                <a (click)="addTelefone()" *ngIf="i==0" ><i class="material-icons">add_circle</i></a>
+                <a (click)="removeTelefone(i)" *ngIf="i!==0" class="remove"><i class="material-icons">remove_circle</i></a>
             </div>
         </label>
         <div class="controles">
             <button type="button" class="link" (click)="cancelar()">Cancelar</button>
-            <button>Adicionar</button>
+            <button (click)="salvar()">Adicionar</button>
         </div>
