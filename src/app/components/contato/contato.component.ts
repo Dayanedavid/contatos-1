@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Contato } from '../models/Contato';
+import { Contato } from 'src/app/models/Contato';
 
 @Component({
   selector: 'app-contato',

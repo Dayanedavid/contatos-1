@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,7 +10,6 @@ export class AppComponent {
   mostrandoModal = false;
 
   mostrarModal(){
-    console.log("te escutei meu fio")
     this.mostrandoModal = true;
   }
 
